@@ -1,5 +1,4 @@
 
-name: Build MedievalCannons 
 name: Build MedievalCannons 2.1
 
 on:
@@ -11,7 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Baixar o código
         uses: actions/checkout@v5
